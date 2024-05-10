@@ -74,16 +74,16 @@ export default function Admin() {
   function validate() {
     const newErrors: Errors = {};
     if (!food.name) {
-      newErrors.name = "Name is required";
+      newErrors.name = "Your Name is required";
     }
     if (!food.image) {
       newErrors.image = "Image filename is required";
     }
     if (!food.price) {
-      newErrors.price = "Price is required";
+      newErrors.price = "The Price is required";
     }
     if (!food.description) {
-      newErrors.description = "Description is required";
+      newErrors.description = "The Description is required";
     }
     if (food.tags.length === 0) {
       newErrors.tags = "At least one tag is required";
