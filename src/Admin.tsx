@@ -74,7 +74,7 @@ export default function Admin() {
   function validate() {
     const newErrors: Errors = {};
     if (!food.name) {
-      newErrors.name = "Your Name is required";
+      newErrors.name = "The Name is required";
     }
     if (!food.image) {
       newErrors.image = "Image filename is required";
